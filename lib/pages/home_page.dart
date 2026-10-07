@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage>
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Container(
+        child: DecoratedBox(
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [Color(0xff6A81CA), Color(0xffA9E0F3)],
